@@ -92,14 +92,16 @@ a {
   text-decoration: none; /* no underline */
 }
 .neon-text {
-    border: 2px solid var(--white-color);
+    border: 2px solid var(--green-color);
+    border-left: transparent;
+    border-right: transparent;
     border-radius: 1px;
-    box-shadow: 0 0 10px  rgba(240, 56, 255, 0.2), 0 0 5px  rgba(240, 56, 255, 0.2), 0 0 5px  rgba(240, 56, 255, 0.2), 0 0 5px  rgba(240, 56, 255, 0.2), 0 0 5px  rgba(240, 56, 255, 0.2);
+    /* box-shadow: 0  rgba(240, 56, 255, 0), 0 0 5px  rgba(240, 56, 255, 0.2), 0 0 5px  rgba(240, 56, 255, 0.2), 0 0 5px  rgba(240, 56, 255, 0.2), 0 0 5px  rgba(240, 56, 255, 0.2); */
     font-size: 2rem;
     text-transform: uppercase;
     font-weight: 100;
     line-height: 5rem;
-    padding: 5%;
+    padding: 5% ;
     color: var(--white-color);
     text-shadow: 0 0 5px  rgba(240, 56, 255, 0.5), 0 0 5px  rgba(240, 56, 255, 0.5), 0 0 5px  rgba(240, 56, 255, 0.5), 0 0 5px  rgba(240, 56, 255, 0.5), 0 0 5px  rgba(240, 56, 255, 0.5);
     animation: glow 1.5s infinite alternate;
