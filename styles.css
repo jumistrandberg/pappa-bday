@@ -48,7 +48,8 @@ main {
 
 #card {
   position: absolute;
-  margin-top: -180%;
+  margin-top: -150%;
+  margin-left: 15px;
   width: 300px;
   height: 650px;
   border: 10px solid var(--white-color);
