@@ -49,8 +49,8 @@ main {
 #card {
   position: absolute;
   margin-top: -170%;
-  margin-left: 10px;
-  width: 350px;
+  margin-left: -10px;
+  width: 320px;
   height: 590px;
   border: 10px solid var(--white-color);
   background-color: var(--white-color);
@@ -156,7 +156,7 @@ a {
   text-transform: uppercase;
   font-size: 2rem;
   text-align: center;
-  margin: 1rem 2rem;
+  margin: 0 2rem;
   padding-bottom: 1rem;
   color: var(--color-primary);
   animation: shadows 2s ease-in infinite;
